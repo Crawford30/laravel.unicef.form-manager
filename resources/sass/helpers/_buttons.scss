@@ -1,0 +1,40 @@
+.unicef-btn {
+    position: relative;
+    color: #dceaf5;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 50px;
+}
+
+.unicef-primary {
+    background: linear-gradient(#0076c4, #004b7c);
+}
+
+.unicef-secondary {
+    background: linear-gradient(#34a9f3, #037bc6);
+}
+
+.unicef-success {
+    background: linear-gradient(#00c401, #007b1b);
+}
+
+.unicef-danger {
+    background: linear-gradient(#d63f30, #b31404);
+}
+
+.unicef-neutral {
+    background: linear-gradient(#999, #666);
+}
+
+.add-more-btn {
+    border-radius: 3px;
+    background: linear-gradient(#f0f1f3, #caccd2);
+    border-color: #BBB !important;
+
+    span {
+        color: #4362ad;
+    }
+}

@@ -1,0 +1,234 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//izitoast
+@import "~izitoast/dist/css/iziToast.min.css";
+
+//@import '~intl-tel-input/build/css/intlTelInput.css';
+
+@import "helpers/all_helpers";
+@import "components/all_components";
+
+//bs-stepper
+@import "~bs-stepper/dist/css/bs-stepper.min.css";
+
+//select 2
+@import "~select2/dist/css/select2.min.css";
+@import "~select2-theme-bootstrap4/dist/select2-bootstrap.min.css";
+
+@import "datetimepicker";
+
+.date-picker {
+    background-color: white !important;
+}
+
+[v-cloak]{
+    display: none;
+}
+
+body {
+    font-size: .9rem !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+}
+
+.unicef-content-container {
+    height: calc(100vh - 70px) !important;
+    overflow-y: auto;
+}
+
+/*Map dialog */
+.pac-container {
+    background-color: #FFF;
+    z-index: 2000 !important;
+    position: fixed;
+    display: inline-block;
+}
+
+.table-sm {
+    thead {
+        text-transform: uppercase;
+        background-color: #F5F6FA;
+        color: #A6A9B7;
+    }
+    th {
+        border: none !important;
+        padding: 0.5rem 1rem !important;
+        text-transform: uppercase;
+        background-color: #F5F6FA;
+        color: #A6A9B7;
+    }
+    
+    td {
+        padding: 0.5rem 1rem !important;
+    }
+
+    tbody {
+        tr {
+            &:first-child {
+                td {
+                    border: none !important;
+                }
+            }
+        }
+    }
+}
+
+//full calendar
+.fc-day-today{
+    background-color: #F0F0F7 !important;
+}
+
+.unicef-card {
+    box-shadow: 0 0 2px 2px #dddddd;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+.fc-toolbar-title {
+    font-size: 19px !important;
+    color: #333333 !important;
+}
+
+.fc-today-button {
+    text-transform: capitalize !important;
+}
+
+.nav-tab {
+  .nav-item {
+		font-size: 15px !important;
+		padding: 1.5rem 1rem !important;
+
+		&.active {
+			border-bottom: 3px solid #333333 !important;
+			color: #333333 !important;
+			font-weight: bold !important;
+		}
+  }
+}
+
+.unicef-timeline {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+
+    .timeline-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border: 0.5px solid #dddddd;
+        border-radius: 50%;
+        text-align: center;
+        
+        i {
+            font-size: 13px;
+            line-height: 30px;
+            text-align: center;
+        }
+    }
+
+    .timeline-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .timeline-text {
+        position: relative;
+        margin-left: 42px;
+
+        .text {
+            font-size: 11px; 
+            color: #777777;
+        }
+
+        .date {
+            font-size: 9px; 
+            color: #999999;
+            margin-top: 2px !important;
+        }
+    }
+}
+
+.workshop-add-participants {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 0 2px 3px #dddddd;
+    margin: auto;
+    text-align: center;
+    outline: none !important;
+    border: none !important;
+
+    &:focus {
+        border: none !important;
+        outline: none !important;
+    }
+
+    &:active {
+        border: none !important;
+        outline: none !important;
+    }
+
+    img {
+        height: 50px;
+        margin-bottom: 6px;
+    }
+
+    p {
+        color: #4362ad;
+        font-size: 13px;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    button {
+        border: none !important;
+        outline: none !important;
+        margin-top: 8px;
+        span {
+            font-size: 12px;
+        }
+    }
+}
+
+.drag-drop-area {
+    background-color: #EFF2F8;
+    text-align: center;
+    margin: 5px 25px;
+    img {
+        width: 48px;
+    }
+    input {
+        cursor: pointer;
+    }
+}
+
+.error {
+    color: red !important;
+}
+
+label {
+    &.error {
+        font-size: 12px !important;
+    }
+}
+
+.swal2-title {
+    font-size: 1.3em !important;
+}
